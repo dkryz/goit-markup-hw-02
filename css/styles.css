@@ -1,0 +1,65 @@
+:root {
+  --font-family: font-family: 'Roboto',
+  sans-serif;
+
+  --color-main: #212121;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #FFFFFF;
+  color: var(--color-main);
+  font-size: 14px;
+
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*header navigation*/
+
+.menu-link {
+  font-family: 'Roboto', sans-serif;
+  font style: medium
+  font size: 14px
+  line height: 1.14
+  letter spacing: 2%
+  cursor: pointer;
+}
+
+.menu-link {
+    color: #757575;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color:#2196f3 ;
+}
+
+.contact-nav a {
+    font-family: 'Roboto', sans-serif;
+    font style: medium
+    font size: 14px
+    line height: 1.14
+    letter spacing: 2%
+    cursor: pointer;
+}
+
+.contact-nav a:hover,
+.contact-nav a:focus {
+    color:#2196f3 ;
+}
+
+.contact-nav a {
+    color: #757575;
+}
+
